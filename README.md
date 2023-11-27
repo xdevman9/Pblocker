@@ -18,3 +18,27 @@ A free web proxy that will allow you to unblock sites at school
 
 
 # Join our server to support and more proxies ☝️
+
+
+
+# Deployments 
+Replit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Replit Deploy Button</title>
+</head>
+<body>
+
+  <a href="https://replit.com/github/user/repo" target="_blank">
+    <img
+      src="https://replit.com/badge/github/user/repo.svg"
+      alt="Run on Replit"
+    />
+  </a>
+
+</body>
+</html>
+
