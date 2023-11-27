@@ -22,11 +22,11 @@ A free web proxy that will allow you to unblock sites at school
 
 
 # Deployments 
-Replit
+Replit 	&#128071;
 
-  <a href="https://replit.com/github/user/repo" target="_blank">
+  <a href="https://replit.com/github/xpblocker/Pblocker" target="_blank">
     <img
-      src="https://replit.com/badge/github/user/repo.svg"
+      src="https://replit.com/badge/github/xpblocker/Pblocker.svg"
       alt="Run on Replit"
     />
   </a>
