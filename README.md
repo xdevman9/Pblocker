@@ -44,11 +44,11 @@ Replit 	&#128071;
     />
   </a>
 
+CodeSandBox   &#128071;
 
-  CodeSandBox &#128071;
-
-     <a href="https://codesandbox.io/s/github/xpblocker/Pblocker" target="_blank">
+  <a href="https://codesandbox.io/s/github/xpblocker/Pblocker" target="_blank">
     <img alt="CodeSandbox Deploy Button"
          src="https://codesandbox.io/static/img/play-codesandbox.svg">
   </a>
+
 
