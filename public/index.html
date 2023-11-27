@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pblocker</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <link rel="icon" href="PB.png" type="images/PB.png">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: -3px;
+    }
+    .search-container {
+      display: flex;
+      flex-direction: row;
+      border: 1px solid #ccc;
+      border-radius: 25px;
+      padding: 10px;
+      max-width: 700px;
+      width: 100%;
+    }
+    .search-container input {
+      border: none;
+      width: 100%;
+      padding: 0px;
+      outline: none;
+      border-radius: 25px;
+    }
+    .search-container button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+    .links {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+    }
+    .links button {
+      margin-right: 20px;
+      padding: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pblocker</h1>
+  <div id="haha"></div>
+
+  <div class="search-container">
+    <input type="text" placeholder="Enter URL HERE & click the search icon" maxlength="50">
+    <div class="search-icon">
+      <i class="fas fa-search" onclick="getSite()"></i>
+    </div>
+  </div>
+
+  <div class="links">
+    <button onclick="window.location.href='comingsoon.html'">GitHub</button>
+    <button
+onclick="window.location.href='https://discord.gg/nsvwU9ta37'">Discord</button>
+  </div>
+
+  <script>
+    var haha = document.getElementById("haha");
+
+    function lmao(){
+      var lol = [
+        // ... (unchanged)
+      ];
+
+      var hehe = Math.floor(Math.random() * lol.length);
+      haha.textContent = lol[hehe];
+    }
+
+    lmao()
+
+    function getSite() {
+      let inputValue = document.querySelector('input').value;
+
+      if (!inputValue.startsWith('http://') && !inputValue.startsWith('https://')) {
+        inputValue = 'http://' + inputValue;
+      }
+
+      const encodedValue = btoa(inputValue);
+      window.location.href = "/web/_" + encodedValue + '_/';
+    }
+  </script>
+</body>
+</html>
